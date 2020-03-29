@@ -1,0 +1,95 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     car
+Instances:    1728
+Attributes:   7
+              buying
+              maint
+              doors
+              persons
+              lug_boot
+              safety
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                Class
+Attribute       unacc    acc   good  vgood
+                (0.7) (0.22) (0.04) (0.04)
+===========================================
+buying
+  vhigh          361.0   73.0    1.0    1.0
+  high           325.0  109.0    1.0    1.0
+  med            269.0  116.0   24.0   27.0
+  low            259.0   90.0   47.0   40.0
+  [total]       1214.0  388.0   73.0   69.0
+
+maint
+  vhigh          361.0   73.0    1.0    1.0
+  high           315.0  106.0    1.0   14.0
+  med            269.0  116.0   24.0   27.0
+  low            269.0   93.0   47.0   27.0
+  [total]       1214.0  388.0   73.0   69.0
+
+doors
+  2              327.0   82.0   16.0   11.0
+  3              301.0  100.0   19.0   16.0
+  4              293.0  103.0   19.0   21.0
+  5more          293.0  103.0   19.0   21.0
+  [total]       1214.0  388.0   73.0   69.0
+
+persons
+  2              577.0    1.0    1.0    1.0
+  4              313.0  199.0   37.0   31.0
+  more           323.0  187.0   34.0   36.0
+  [total]       1213.0  387.0   72.0   68.0
+
+lug_boot
+  small          451.0  106.0   22.0    1.0
+  med            393.0  136.0   25.0   26.0
+  big            369.0  145.0   25.0   41.0
+  [total]       1213.0  387.0   72.0   68.0
+
+safety
+  low            577.0    1.0    1.0    1.0
+  med            358.0  181.0   40.0    1.0
+  high           278.0  205.0   31.0   66.0
+  [total]       1213.0  387.0   72.0   68.0
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1478               85.5324 %
+Incorrectly Classified Instances       250               14.4676 %
+Kappa statistic                          0.6665
+Mean absolute error                      0.1137
+Root mean squared error                  0.2262
+Relative absolute error                 49.6626 %
+Root relative squared error             66.9048 %
+Total Number of Instances             1728     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.960    0.203    0.917      0.960    0.938      0.783    0.982     0.993     unacc
+                 0.706    0.098    0.672      0.706    0.689      0.597    0.950     0.842     acc
+                 0.275    0.007    0.633      0.275    0.384      0.403    0.980     0.538     good
+                 0.415    0.001    0.931      0.415    0.574      0.613    0.998     0.953     vgood
+Weighted Avg.    0.855    0.164    0.852      0.855    0.847      0.720    0.976     0.940     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1161   48    1    0 |    a = unacc
+  104  271    9    0 |    b = acc
+    1   47   19    2 |    c = good
+    0   37    1   27 |    d = vgood
+

@@ -1,0 +1,39 @@
+C:\Users\Sagar\PycharmProjects\naive-bayes-classifier\venv\Scripts\python.exe C:/Users/Sagar/PycharmProjects/naive-bayes-classifier/NaiveBayesLogCarEvaluation.py
+[high] => 1
+[low] => 2
+[vhigh] => 3
+[med] => 4
+[high] => 1
+[low] => 2
+[vhigh] => 3
+[med] => 4
+[4] => 1
+[3] => 2
+[5more] => 3
+[2] => 4
+[4] => 1
+[more] => 2
+[2] => 3
+[med] => 1
+[small] => 2
+[big] => 3
+[high] => 1
+[med] => 2
+[low] => 3
+[good] => 1
+[vgood] => 2
+[unacc] => 3
+[acc] => 4
+Accuracy at fold  1  is : 0.7803468208092486
+Accuracy at fold  2  is : 0.7572254335260116
+Accuracy at fold  3  is : 0.7803468208092486
+Accuracy at fold  4  is : 0.7630057803468208
+Accuracy at fold  5  is : 0.7456647398843931
+Accuracy at fold  6  is : 0.8034682080924855
+Accuracy at fold  7  is : 0.791907514450867
+Accuracy at fold  8  is : 0.791907514450867
+Accuracy at fold  9  is : 0.7732558139534884
+Accuracy at fold  10  is : 0.7441860465116279
+Total Accuracy :  77.3131 %
+
+Process finished with exit code 0
