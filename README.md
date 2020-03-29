@@ -1,8 +1,6 @@
 ##############################################################################
 # Author  : Sagar Surendran
-# Data    : 3/21/2020 
-# 
-# ReadMe file.
+# Date    : 3/21/2020 
 ##############################################################################
 
 Naive Bayes algorithm implementation with Log Probabilities
